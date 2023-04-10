@@ -15,7 +15,7 @@ for i, tweet in enumerate(sntwitter.TwitterSearchScraper(name).get_items()):
 
 df = pd.DataFrame(tweets_list, columns=['Datetime', 'Tweet Id', 'Text', 'Username', 'URL', 'ReplyCount','retweetCount','Language','Source,','LikeNumber'])
 print(df)
-df.to_csv()
+df.to_csv('ScrappedData.csv')
 
 client = pymongo.MongoClient("mongodb+srv://arush0104:123@cluster0.m0edrgj.mongodb.net/?retryWrites=true&w=majority")
 db = client.test
