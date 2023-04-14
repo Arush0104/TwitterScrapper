@@ -1,6 +1,6 @@
 # Twitter Scrapping Project
 
-##This is a project made with Python and Python Snscrape which scraps Twitter Data like date, id, url, tweet content, user,reply count, retweet count,language, source, like count.
+#This is a project made with Python and Python Snscrape which scraps Twitter Data like date, id, url, tweet content, user,reply count, retweet count,language, source, like count.
 
 -Tools like Excel and MongoDB were used.
 
